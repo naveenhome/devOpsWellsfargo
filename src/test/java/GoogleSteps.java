@@ -22,6 +22,7 @@ public class GoogleSteps {
 	    driver.get(baseUrl);
 	    driver.findElement(By.id("lst-ib")).clear();
 	    driver.findElement(By.id("lst-ib")).sendKeys(arg1);
+	    //hello
 	}
 
 	@Given("^Google is open in FireFox browser$")
@@ -40,7 +41,7 @@ public class GoogleSteps {
 	public void I_click_on_google_button(String arg1) throws Throwable {
 	    // Express the Regexp above with the code you wish you had
 	    //throw new PendingException();
-		driver.findElement(By.name("btnK")).click();
+		driver.findElement(By.name("btnG")).click();
 	}
 
 	@Then("^it should display all matching result$")
