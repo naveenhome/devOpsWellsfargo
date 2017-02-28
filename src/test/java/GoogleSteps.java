@@ -22,7 +22,7 @@ public class GoogleSteps {
 	    driver.get(baseUrl);
 	    driver.findElement(By.id("lst-ib")).clear();
 	    driver.findElement(By.id("lst-ib")).sendKeys(arg1);
-	    //hello
+	    //hello world
 	}
 
 	@Given("^Google is open in FireFox browser$")
